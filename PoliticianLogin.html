@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politician Login</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #e0f2f7; /* Light blue background for header */
+            padding: 15px 0;
+            text-align: center; 
+        }
+
+        .container {
+            max-width: 960px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #a6d4fa; /* Lighter blue for navigation */
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-right: 20px;
+            padding: 8px 12px;
+            border-radius: 3px; 
+        }
+
+        nav a:hover {
+            background-color: #78b5e1; /* Darker blue on hover */
+            color: white;
+        }
+
+        .login-section {
+            display: flex;
+            justify-content: space;
+            align-items: center;
+            margin-top: 50px; 
+        }
+
+        .illustration {
+            flex: 1;
+            text-align: center; 
+        }
+        .illustration img {
+             height: 250px; 
+            vertical-align: middle;
+        }
+
+        .login-form {
+            flex: 1;
+            background-color: #f2e9e4; /* Light peach background for form */
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        input[type="email"], 
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box; 
+        }
+
+        button {
+            background-color: #6495ed; /* Cornflower blue for button */
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .forgot-password {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        /* Styling for the logo */
+        .logo img {
+            height: 50px; /* Adjust height as needed */
+            vertical-align: middle; /* Align logo with text */
+        }
+
+        /* Optional: Add more styles for responsiveness, form validation, etc. */
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="mainlogo.jpg" alt="Lak Sambandh Logo"> 
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="PoliticianHome.html">Politician</a>
+			<a href="AboutUs.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Contactus.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </nav>
+
+        <section class="login-section">
+            <div class="illustration">
+                <img src="pi.jpg" alt="Login Illustration"> 
+            </div>
+            <class class="login-form">
+                <h2>Login</h2>
+                <form action="#">
+                    <input type="email" id="email" placeholder="Email">
+                    <input type="password" id="password" placeholder="Password">
+                    <button type="submit">Login</button>
+                </form>
+                <div class="forgot-password">
+                    <a href="#">Forget Password?</a>
+                </div>
+        </class>
+        </section>
+        </div>
+        </body>
+        </html>

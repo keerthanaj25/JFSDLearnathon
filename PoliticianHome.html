@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politician Home</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #e0f2f7; /* Light blue background for header */
+            padding: 15px 0;
+            text-align: center; 
+        }
+
+        .container {
+            max-width: 960px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #a6d4fa; /* Lighter blue for navigation */
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-right: 20px;
+            padding: 8px 12px;
+            border-radius: 3px; 
+        }
+
+        nav a:hover {
+            background-color: #78b5e1; /* Darker blue on hover */
+            color: white;
+        }
+
+        .dashboard-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px; 
+        }
+
+        .dashboard-sidebar {
+            flex: 1;
+            text-align: center; 
+        }
+
+        .dashboard-content {
+            flex: 1;
+            background-color: #f2e9e4; /* Light peach background for content */
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .service-card {
+            background-color: #f2e9e4; /* Light peach background for service cards */
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .service-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .service-card li {
+            margin-bottom: 10px;
+        }
+
+        .service-card a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .service-card a:hover {
+            color: #78b5e1;
+        }
+        .logo img {
+            height: 50px; 
+            vertical-align: middle; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="mainlogo.jpg" alt="Lak Sambandh Logo"> 
+            </div>
+        </div>
+    </header>
+
+        <div class="container">
+            <nav>
+                <a href="#">Dashboard</a>
+                <a href="#">Users</a>
+                <a href="#">Settings</a>
+                <a href="Home.html">Logout</a>
+            </nav>
+   
+
+    <div class="container">
+        <div class="dashboard-container">
+            <section class="dashboard-sidebar">
+                <h2>Admin Dashboard</h2>
+                <p>Welcome to the admin dashboard. From here, you can manage users, settings, and other administrative tasks.</p>
+            </section>
+            <section class="dashboard-content">
+                <h2 align="center">Services</h2>
+                <div class="services-container">
+                    <div class="service-card">
+                        <h3>Manage Users</h3>
+                        <ul>
+                            <li><a href="#">Create New User</a></li>
+                            <li><a href="#">Edit User</a></li>
+                            <li><a href="#">Delete User</a></li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h3>Manage Settings</h3>
+                        <ul>
+                            <li><a href="#">General Settings</a></li>
+                            <li><a href="#">Security Settings</a></li>
+                            <li><a href="#">Notification Settings</a></li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h3>Manage Reports</h3>
+                        <ul>
+                            <li><a href="#">View Reports</a></li>
+                            <li><a href="#">Generate Reports</a></li>
+                            <li><a href="#">Export Reports</a></li>
+                        </ul>
+                    </div>
+                    <div class="service-card">
+                        <h3>Manage Backups</h3>
+                        <ul>
+                            <li><a href="#">Create Backup</a></li>
+                            <li><a href="#">Restore Backup</a></li>
+                            <li><a href="#">Delete Backup</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Copyright : www.loksambandh.com</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
